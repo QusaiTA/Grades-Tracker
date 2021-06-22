@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="styleSheet" href="css/reset.css">
+    <link rel="styleSheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+
+    <header>
+           <p> Grade Tracker</p>
+    </header>
+
+
+    <main>
+     <div id = 'formDiv'>
+         
+        <form id = 'studentForm'>
+           
+            <label for = "sName"> Student Name</label>
+            <input type = "text" name ="Name" id ="sName">
+            <br>
+            <br>
+
+            <label for = "selectCourse"> Course</label>
+            <select name ="Course" id="selectCourse">
+                <option value = "Math">  Math </option>
+                <option value = "English">  English </option>
+                <option value = "Arabic">  Arabic </option>
+                <option value = "Art">  Art </option>
+                <option value = "Science">  Science </option>
+           </select>
+           <br>
+           <br>
+
+
+           <input type ="submit" id="studentSubmitter" value="Submit Query">
+            
+        </form>
+    
+        </div>
+
+        <br>
+        <br>
+        
+        <div id ="tableDiv">
+
+        <table id="studentTable"></table>
+        </div>
+
+    </main>
+
+
+    <footer>
+
+    </footer>
+
+    <script src="app.js"></script>
+    
+</body>
+</html>
